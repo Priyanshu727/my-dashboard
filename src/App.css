@@ -1,0 +1,79 @@
+.homePageBgImage {
+  background-image: url(../src/assets/images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeCont {
+  background-color: #377a94c2;
+  backdrop-filter: blur(1px);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px 0px #000000b5;
+}
+
+.homeBtn {
+  transition: all linear 0.1s;
+}
+
+.homeBtn:hover {
+  box-shadow: 0px 0px 8px 2px #00000090;
+}
+
+/* ---------header-start----- */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  border-bottom: 1px solid #fff;
+}
+.topLogo {
+  width: 360px !important;
+}
+
+.TopHeader {
+  width: calc(100% - 360px);
+  margin-left: auto;
+}
+
+/* -------Header-end-------- */
+
+/* ------aside------start---- */
+.aside {
+  width: 360px;
+  /* height: calc(100vh - 76px); */
+  background-color: rgb(64, 68, 68);
+  position: fixed;
+  top: 76px;
+  left: 0;
+  bottom: 0;
+  overflow-x: scroll;
+}
+
+.AsideList li {
+  color: white;
+}
+/* SCROLL BAR */
+.aside::-webkit-scrollbar {
+  width: 6px;
+}
+
+.aside::-webkit-scrollbar-thumb {
+  background: #adb7c9;
+  border-radius: 10px;
+}
+
+.aside::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* --------------MAIN DATA START ---------------*/
+.main_data {
+  width: calc(100% - 360px);
+  margin-left: auto;
+  /* margin-bottom: 30px; */
+  /* padding: 60px 30px; */
+}
+
+/* --------------MAIN DATA END ---------------*/
